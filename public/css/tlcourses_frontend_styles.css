@@ -1,0 +1,54 @@
+.tlCourse-successDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 100;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.tlCourse-successDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.tlCourse-successDialog > div {
+    width: 500px;
+    position: relative;
+    margin: 5% auto;
+    padding: 0;
+    border-radius: 0px;
+    background: #fff;
+}
+.tlCourse-modalDialog {
+    position: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 99999;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+.tlCourse-modalDialog:target {
+    opacity:1;
+    pointer-events: auto;
+}
+.tlCourse-modalDialog > div {
+    width: 500px;
+    position: relative;
+    margin: 5% auto;
+    padding: 0;
+    border-radius: 0px;
+    background: #fff;
+}
